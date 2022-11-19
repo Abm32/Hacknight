@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Pacifico&family=Permanent+Marker&family=Rubik+Bubbles&family=Rubik+Glitch&family=Rubik+Marker+Hatch&display=swap');
 *
 {
     margin: 0;
@@ -19,8 +20,27 @@ body
     outline: none;
 }
 #box1{
-
+    font-family: 'Poppins', sans-serif;
+    /** font-family: 'Chakra Petch', sans-serif; **/
+    /**color: teal;**/
+    background-color: #252839;
+    /** background: rgb(2,0,36); **/
+    /** background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(28,30,33,0.6054796918767507) 99%, rgba(0,212,255,1) 100%);**/
+    height: 376px;
+    width: 1600px;
+    text-align: center;
+    align-items: center;
 }
 #box2{
-    
+    background-color: white;
+    width: 1601px;
+    height: 492px;
+}
+h1{
+    padding-top: 159px;
+    color: #252839;
+    position: relative;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.3vw #329d52;
+    text-transform: uppercase;
 }
